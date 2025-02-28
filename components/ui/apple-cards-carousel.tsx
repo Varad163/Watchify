@@ -187,8 +187,11 @@ export const Card = ({ card, index, layout = false }: { card: Card; index: numbe
                     </div>
                 )}
             </AnimatePresence>
-            <motion.button onClick={handleOpen} className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden relative">
-                <Image src={card.src} alt={card.title} fill className="object-cover" />
+            <motion.button
+                onClick={handleOpen}
+                className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-64 w-48 md:h-[30rem] md:w-80 overflow-hidden relative"
+            >
+                <Image src={card.src} alt={card.title} layout="fill" objectFit="cover" />
             </motion.button>
         </>
     );

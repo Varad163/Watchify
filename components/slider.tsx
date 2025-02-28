@@ -36,13 +36,13 @@ const Slider = () => {
             <div className="flex flex-row items-center justify-center gap-4">
                 <button
                     onClick={prevSlide}
-                    className="p-2 px-4 bg-gray-300 rounded-lg shadow hover:bg-gray-400 transition"
+                    className="p-2 px-4 bg-gray-300 rounded-lg shadow hover:bg-gray-400 transition text-black"
                 >
                     Previous
                 </button>
                 <button
                     onClick={nextSlide}
-                    className="p-2 px-4 bg-gray-300 rounded-lg shadow hover:bg-gray-400 transition"
+                    className="p-2 px-4 bg-gray-300 rounded-lg shadow hover:bg-gray-400 transition text-black"
                 >
                     Next
                 </button>
