@@ -10,6 +10,7 @@ import {
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
+import Navbar from "../components/Navbar";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </SignedOut>
               <SignedIn>
                 <UserButton />
+                
               </SignedIn>
             </header>
           <ThemeProvider
