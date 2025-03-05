@@ -21,7 +21,6 @@ const Slider = () => {
 
     return (
         <div className="slider flex flex-col items-center justify-center gap-4 w-full max-w-4xl mx-auto my-10">
-            {/* Image Container (Full-Width) */}
             <div className="relative w-full aspect-[16/9]">
                 <Image
                     src={images[currentIndex]}
