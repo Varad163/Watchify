@@ -31,7 +31,7 @@ const Slider = () => {
                 />
             </div>
 
-            {/* Navigation Buttons */}
+            
             <div className="flex flex-row items-center justify-center gap-4">
                 <button
                     onClick={prevSlide}
