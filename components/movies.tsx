@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Slider from "@/components/slider";
 import { Card } from "@/components/ui/apple-cards-carousel";
-import Endgame from "../images/endgame.jpg"; // Ensure correct path
+import Endgame from "../images/endgame.jpg"; 
 import Deadpool from "../images/deadpool.jpg";
 import pokemon from "../images/pokemon.jpg";
 import panipat from "../images/panipat.jpg";
