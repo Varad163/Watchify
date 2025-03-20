@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import Movies from "@/components/movies";
 
 
-
+//
 
 
 
